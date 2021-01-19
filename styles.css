@@ -294,17 +294,26 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
+  width: 100%;
 }
 .skills__css{
-  width: 85%;
+  width: 100%;
 }
 .skills__js{
-  width: 65%;
-}
-.skills__ux{
   width: 85%;
 }
+.skills__ux{
+  width: 95%;
+}
+
+.skills__react{
+  width: 55%;
+}
+
+.skills__node{
+  width: 55%;
+}
+
 .skills__img{
   border-radius: .5rem;
 }
@@ -326,6 +335,14 @@ img{
 }
 .work__img img:hover{
   transform: scale(1.1);
+}
+
+.list{
+  text-decoration: underline;
+}
+
+.description-title{
+  text-decoration: underline;
 }
 
 /* ===== CONTACT =====*/
