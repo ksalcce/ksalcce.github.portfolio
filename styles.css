@@ -346,46 +346,21 @@ img{
 }
 
 /* ===== CONTACT =====*/
-.contact__input{
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
+
 .contact__button{
   display: block;
   border: none;
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  margin: auto;
 }
 
 /* ===== CONTACT =====*/
-.contact__input{
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
-.contact__button{
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
+.contact section{
+  text-align: center;
 }
 
-/* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
   color: #fff;
@@ -482,13 +457,13 @@ img{
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
-  .contact__form{
-    width: 360px;
-  }
+  
   .contact__container{
     justify-items: center;
   }
 }
+
+
 
 @media screen and (min-width: 1024px){
   .bd-grid{
@@ -502,3 +477,4 @@ img{
     text-align: center;
   }
 }
+
