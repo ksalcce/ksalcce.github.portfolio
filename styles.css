@@ -8,8 +8,8 @@
 
 /*===== Colors =====*/
 :root{
-  --first-color: #c56183;
-  --second-color: #0E2431;
+  --first-color: #035aa6;
+  --second-color: black;
 }
 
 /*===== Basic =====*/
@@ -117,12 +117,12 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #f6c065;
+  background-color:#a6b1e1;
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
 .l-main{
-  background-color: #edf285;
+  background-color: #e8ecf1;
 }
 
 /*===== NAV =====*/
@@ -332,7 +332,7 @@ img{
   border-radius: .5rem;
   overflow: hidden;
   text-align: center;
-  background-color:#ec5858;
+  background-color:#fdffbc;
 }
 .work__img img{
   transition: 1s;
@@ -375,7 +375,7 @@ img{
 }
 
 .footer{
-  background-color:#f6c065;
+  background-color:#a6b1e1;
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
